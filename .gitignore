@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+*.egg-info/
+.venv/
+env/
+ENV/
+
+# Project-specific data directories
+PDF/
+EML/
+*.pdf
+*.eml
+
+# Temporary debugging files
+debug_*.py
+test_*.py
+temp_*.py
+batch_convert.py
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# Cache
+.cache/
+__pycache__/
+
+# WeasyPrint cache
+.weasyprint-cache/

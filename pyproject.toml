@@ -1,0 +1,18 @@
+[project]
+name = "eml-to-pdf"
+version = "0.1.0"
+description = "Convert EML email files to PDF format with modern Python tooling"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "rich>=14.1.0",
+    "weasyprint>=66.0",
+]
+
+[project.scripts]
+eml-to-pdf = "src.eml_to_pdf.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
